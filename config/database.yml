@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  # username: hellorails
+  # password: hellorails
+
+development:
+  <<: *default
+  database: e_learning_academy_development
+
+test:
+  <<: *default
+  database: e_learning_academy_test
+
+production:
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
+  database: e_learning_academy_production
+  username: e_learning_academy_user
+  password: <%= ENV["CLASSUP_DATABASE_PASSWORD"]
