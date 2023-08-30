@@ -36,7 +36,7 @@
 
 Our website allows users to reserve online classes while also providing the opportunity to schedule study sessions with fellow learners in their area. By bridging the gap between virtual learning and real-world interactions, Classup creates a vibrant and collaborative learning environment for students of all backgrounds. 
 
-## 📸 Screenshots <a name="screenshot"></a>
+## 📸 Screenshots. <a name="screenshot"></a>
 
 <p>
 <img src="./app_screenshot1.png" width=400 height=250 alt="screenshot" />
